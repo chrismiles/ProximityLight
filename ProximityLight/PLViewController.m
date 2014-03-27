@@ -7,6 +7,9 @@
 //
 
 #import "PLViewController.h"
+
+#import "ESTBeaconManager.h"
+
 #import <LIFXKit/LIFXKit.h>
 
 

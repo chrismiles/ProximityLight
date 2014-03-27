@@ -1,3 +1,6 @@
 [submodule "Libraries/LIFXKit"]
 	path = Libraries/LIFXKit
 	url = git@github.com:chrismiles/LIFXKit.git
+[submodule "Libraries/Estimote-iOS-SDK"]
+	path = Libraries/Estimote-iOS-SDK
+	url = git@github.com:Estimote/iOS-SDK.git

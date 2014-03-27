@@ -23,6 +23,10 @@
 		8356F13218E3D13800122D94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8356F13018E3D13800122D94 /* InfoPlist.strings */; };
 		8356F13418E3D13800122D94 /* ProximityLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8356F13318E3D13800122D94 /* ProximityLightTests.m */; };
 		8356F14318E3D1B600122D94 /* libLIFXKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F14218E3D17500122D94 /* libLIFXKit.a */; };
+		8356F14D18E3D53300122D94 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F14C18E3D53300122D94 /* libEstimoteSDK.a */; };
+		8356F14F18E3D54C00122D94 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F14E18E3D54C00122D94 /* CoreBluetooth.framework */; };
+		8356F15118E3D55500122D94 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F15018E3D55500122D94 /* CoreLocation.framework */; };
+		8356F15318E3D55F00122D94 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F15218E3D55F00122D94 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,15 @@
 		8356F13118E3D13800122D94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8356F13318E3D13800122D94 /* ProximityLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProximityLightTests.m; sourceTree = "<group>"; };
 		8356F13D18E3D17500122D94 /* LIFXKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LIFXKit.xcodeproj; path = Libraries/LIFXKit/LIFXKit/LIFXKit.xcodeproj; sourceTree = "<group>"; };
+		8356F14718E3D53300122D94 /* ESTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeacon.h; sourceTree = "<group>"; };
+		8356F14818E3D53300122D94 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		8356F14918E3D53300122D94 /* ESTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconManager.h; sourceTree = "<group>"; };
+		8356F14A18E3D53300122D94 /* ESTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconRegion.h; sourceTree = "<group>"; };
+		8356F14B18E3D53300122D94 /* ESTBeaconUpdateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconUpdateInfo.h; sourceTree = "<group>"; };
+		8356F14C18E3D53300122D94 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK.a; sourceTree = "<group>"; };
+		8356F14E18E3D54C00122D94 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8356F15018E3D55500122D94 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8356F15218E3D55F00122D94 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +84,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8356F15318E3D55F00122D94 /* SystemConfiguration.framework in Frameworks */,
+				8356F15118E3D55500122D94 /* CoreLocation.framework in Frameworks */,
+				8356F14F18E3D54C00122D94 /* CoreBluetooth.framework in Frameworks */,
 				8356F14318E3D1B600122D94 /* libLIFXKit.a in Frameworks */,
 				8356F10818E3D13800122D94 /* CoreGraphics.framework in Frameworks */,
 				8356F10A18E3D13800122D94 /* UIKit.framework in Frameworks */,
 				8356F10618E3D13800122D94 /* Foundation.framework in Frameworks */,
+				8356F14D18E3D53300122D94 /* libEstimoteSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +111,11 @@
 		8356F0F918E3D13800122D94 = {
 			isa = PBXGroup;
 			children = (
+				8356F14418E3D51D00122D94 /* Libraries */,
 				8356F10B18E3D13800122D94 /* ProximityLight */,
 				8356F12D18E3D13800122D94 /* ProximityLightTests */,
 				8356F10418E3D13800122D94 /* Frameworks */,
 				8356F10318E3D13800122D94 /* Products */,
-				8356F13D18E3D17500122D94 /* LIFXKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +131,9 @@
 		8356F10418E3D13800122D94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8356F15218E3D55F00122D94 /* SystemConfiguration.framework */,
+				8356F15018E3D55500122D94 /* CoreLocation.framework */,
+				8356F14E18E3D54C00122D94 /* CoreBluetooth.framework */,
 				8356F10518E3D13800122D94 /* Foundation.framework */,
 				8356F10718E3D13800122D94 /* CoreGraphics.framework */,
 				8356F10918E3D13800122D94 /* UIKit.framework */,
@@ -172,6 +192,37 @@
 				8356F14218E3D17500122D94 /* libLIFXKit.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8356F14418E3D51D00122D94 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8356F14518E3D53300122D94 /* EstimoteSDK */,
+				8356F13D18E3D17500122D94 /* LIFXKit.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		8356F14518E3D53300122D94 /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8356F14618E3D53300122D94 /* Headers */,
+				8356F14C18E3D53300122D94 /* libEstimoteSDK.a */,
+			);
+			name = EstimoteSDK;
+			path = "Libraries/Estimote-iOS-SDK/EstimoteSDK";
+			sourceTree = "<group>";
+		};
+		8356F14618E3D53300122D94 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8356F14718E3D53300122D94 /* ESTBeacon.h */,
+				8356F14818E3D53300122D94 /* ESTBeaconDefinitions.h */,
+				8356F14918E3D53300122D94 /* ESTBeaconManager.h */,
+				8356F14A18E3D53300122D94 /* ESTBeaconRegion.h */,
+				8356F14B18E3D53300122D94 /* ESTBeaconUpdateInfo.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,6 +480,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProximityLight/ProximityLight-Prefix.pch";
 				INFOPLIST_FILE = "ProximityLight/ProximityLight-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/Estimote-iOS-SDK/EstimoteSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -442,6 +497,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProximityLight/ProximityLight-Prefix.pch";
 				INFOPLIST_FILE = "ProximityLight/ProximityLight-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/Estimote-iOS-SDK/EstimoteSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
