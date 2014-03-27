@@ -7,6 +7,8 @@
 //
 
 #import "PLViewController.h"
+#import <LIFXKit/LIFXKit.h>
+
 
 @interface PLViewController ()
 

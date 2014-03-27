@@ -1,0 +1,3 @@
+[submodule "Libraries/LIFXKit"]
+	path = Libraries/LIFXKit
+	url = git@github.com:chrismiles/LIFXKit.git

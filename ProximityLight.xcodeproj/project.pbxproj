@@ -22,6 +22,7 @@
 		8356F12A18E3D13800122D94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F10918E3D13800122D94 /* UIKit.framework */; };
 		8356F13218E3D13800122D94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8356F13018E3D13800122D94 /* InfoPlist.strings */; };
 		8356F13418E3D13800122D94 /* ProximityLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8356F13318E3D13800122D94 /* ProximityLightTests.m */; };
+		8356F14318E3D1B600122D94 /* libLIFXKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F14218E3D17500122D94 /* libLIFXKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8356F10118E3D13800122D94;
 			remoteInfo = ProximityLight;
+		};
+		8356F14118E3D17500122D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8356F13D18E3D17500122D94 /* LIFXKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 01A9104D18D027B200AD0A54;
+			remoteInfo = "LIFXKit Static Library";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +63,7 @@
 		8356F12F18E3D13800122D94 /* ProximityLightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProximityLightTests-Info.plist"; sourceTree = "<group>"; };
 		8356F13118E3D13800122D94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8356F13318E3D13800122D94 /* ProximityLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProximityLightTests.m; sourceTree = "<group>"; };
+		8356F13D18E3D17500122D94 /* LIFXKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LIFXKit.xcodeproj; path = Libraries/LIFXKit/LIFXKit/LIFXKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8356F14318E3D1B600122D94 /* libLIFXKit.a in Frameworks */,
 				8356F10818E3D13800122D94 /* CoreGraphics.framework in Frameworks */,
 				8356F10A18E3D13800122D94 /* UIKit.framework in Frameworks */,
 				8356F10618E3D13800122D94 /* Foundation.framework in Frameworks */,
@@ -88,6 +98,7 @@
 				8356F12D18E3D13800122D94 /* ProximityLightTests */,
 				8356F10418E3D13800122D94 /* Frameworks */,
 				8356F10318E3D13800122D94 /* Products */,
+				8356F13D18E3D17500122D94 /* LIFXKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +166,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8356F13E18E3D17500122D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8356F14218E3D17500122D94 /* libLIFXKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,6 +238,12 @@
 			mainGroup = 8356F0F918E3D13800122D94;
 			productRefGroup = 8356F10318E3D13800122D94 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8356F13E18E3D17500122D94 /* Products */;
+					ProjectRef = 8356F13D18E3D17500122D94 /* LIFXKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8356F10118E3D13800122D94 /* ProximityLight */,
@@ -226,6 +251,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8356F14218E3D17500122D94 /* libLIFXKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLIFXKit.a;
+			remoteRef = 8356F14118E3D17500122D94 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8356F10018E3D13800122D94 /* Resources */ = {
