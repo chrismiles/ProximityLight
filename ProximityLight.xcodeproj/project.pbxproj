@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8356F10618E3D13800122D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F10518E3D13800122D94 /* Foundation.framework */; };
+		8356F10818E3D13800122D94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F10718E3D13800122D94 /* CoreGraphics.framework */; };
+		8356F10A18E3D13800122D94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F10918E3D13800122D94 /* UIKit.framework */; };
+		8356F11018E3D13800122D94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8356F10E18E3D13800122D94 /* InfoPlist.strings */; };
+		8356F11218E3D13800122D94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8356F11118E3D13800122D94 /* main.m */; };
+		8356F11618E3D13800122D94 /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8356F11518E3D13800122D94 /* PLAppDelegate.m */; };
+		8356F11918E3D13800122D94 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8356F11718E3D13800122D94 /* Main_iPhone.storyboard */; };
+		8356F11C18E3D13800122D94 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8356F11A18E3D13800122D94 /* Main_iPad.storyboard */; };
+		8356F11F18E3D13800122D94 /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8356F11E18E3D13800122D94 /* PLViewController.m */; };
+		8356F12118E3D13800122D94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8356F12018E3D13800122D94 /* Images.xcassets */; };
+		8356F12818E3D13800122D94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F12718E3D13800122D94 /* XCTest.framework */; };
+		8356F12918E3D13800122D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F10518E3D13800122D94 /* Foundation.framework */; };
+		8356F12A18E3D13800122D94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356F10918E3D13800122D94 /* UIKit.framework */; };
+		8356F13218E3D13800122D94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8356F13018E3D13800122D94 /* InfoPlist.strings */; };
+		8356F13418E3D13800122D94 /* ProximityLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8356F13318E3D13800122D94 /* ProximityLightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8356F12B18E3D13800122D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8356F0FA18E3D13800122D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8356F10118E3D13800122D94;
+			remoteInfo = ProximityLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8356F10218E3D13800122D94 /* ProximityLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximityLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8356F10518E3D13800122D94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8356F10718E3D13800122D94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8356F10918E3D13800122D94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8356F10D18E3D13800122D94 /* ProximityLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProximityLight-Info.plist"; sourceTree = "<group>"; };
+		8356F10F18E3D13800122D94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8356F11118E3D13800122D94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8356F11318E3D13800122D94 /* ProximityLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProximityLight-Prefix.pch"; sourceTree = "<group>"; };
+		8356F11418E3D13800122D94 /* PLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
+		8356F11518E3D13800122D94 /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
+		8356F11818E3D13800122D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8356F11B18E3D13800122D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8356F11D18E3D13800122D94 /* PLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLViewController.h; sourceTree = "<group>"; };
+		8356F11E18E3D13800122D94 /* PLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
+		8356F12018E3D13800122D94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8356F12618E3D13800122D94 /* ProximityLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProximityLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8356F12718E3D13800122D94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8356F12F18E3D13800122D94 /* ProximityLightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProximityLightTests-Info.plist"; sourceTree = "<group>"; };
+		8356F13118E3D13800122D94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8356F13318E3D13800122D94 /* ProximityLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProximityLightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8356F0FF18E3D13800122D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356F10818E3D13800122D94 /* CoreGraphics.framework in Frameworks */,
+				8356F10A18E3D13800122D94 /* UIKit.framework in Frameworks */,
+				8356F10618E3D13800122D94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8356F12318E3D13800122D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356F12818E3D13800122D94 /* XCTest.framework in Frameworks */,
+				8356F12A18E3D13800122D94 /* UIKit.framework in Frameworks */,
+				8356F12918E3D13800122D94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8356F0F918E3D13800122D94 = {
+			isa = PBXGroup;
+			children = (
+				8356F10B18E3D13800122D94 /* ProximityLight */,
+				8356F12D18E3D13800122D94 /* ProximityLightTests */,
+				8356F10418E3D13800122D94 /* Frameworks */,
+				8356F10318E3D13800122D94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8356F10318E3D13800122D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8356F10218E3D13800122D94 /* ProximityLight.app */,
+				8356F12618E3D13800122D94 /* ProximityLightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8356F10418E3D13800122D94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8356F10518E3D13800122D94 /* Foundation.framework */,
+				8356F10718E3D13800122D94 /* CoreGraphics.framework */,
+				8356F10918E3D13800122D94 /* UIKit.framework */,
+				8356F12718E3D13800122D94 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8356F10B18E3D13800122D94 /* ProximityLight */ = {
+			isa = PBXGroup;
+			children = (
+				8356F11418E3D13800122D94 /* PLAppDelegate.h */,
+				8356F11518E3D13800122D94 /* PLAppDelegate.m */,
+				8356F11718E3D13800122D94 /* Main_iPhone.storyboard */,
+				8356F11A18E3D13800122D94 /* Main_iPad.storyboard */,
+				8356F11D18E3D13800122D94 /* PLViewController.h */,
+				8356F11E18E3D13800122D94 /* PLViewController.m */,
+				8356F12018E3D13800122D94 /* Images.xcassets */,
+				8356F10C18E3D13800122D94 /* Supporting Files */,
+			);
+			path = ProximityLight;
+			sourceTree = "<group>";
+		};
+		8356F10C18E3D13800122D94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8356F10D18E3D13800122D94 /* ProximityLight-Info.plist */,
+				8356F10E18E3D13800122D94 /* InfoPlist.strings */,
+				8356F11118E3D13800122D94 /* main.m */,
+				8356F11318E3D13800122D94 /* ProximityLight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8356F12D18E3D13800122D94 /* ProximityLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				8356F13318E3D13800122D94 /* ProximityLightTests.m */,
+				8356F12E18E3D13800122D94 /* Supporting Files */,
+			);
+			path = ProximityLightTests;
+			sourceTree = "<group>";
+		};
+		8356F12E18E3D13800122D94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8356F12F18E3D13800122D94 /* ProximityLightTests-Info.plist */,
+				8356F13018E3D13800122D94 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8356F10118E3D13800122D94 /* ProximityLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8356F13718E3D13800122D94 /* Build configuration list for PBXNativeTarget "ProximityLight" */;
+			buildPhases = (
+				8356F0FE18E3D13800122D94 /* Sources */,
+				8356F0FF18E3D13800122D94 /* Frameworks */,
+				8356F10018E3D13800122D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProximityLight;
+			productName = ProximityLight;
+			productReference = 8356F10218E3D13800122D94 /* ProximityLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8356F12518E3D13800122D94 /* ProximityLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8356F13A18E3D13800122D94 /* Build configuration list for PBXNativeTarget "ProximityLightTests" */;
+			buildPhases = (
+				8356F12218E3D13800122D94 /* Sources */,
+				8356F12318E3D13800122D94 /* Frameworks */,
+				8356F12418E3D13800122D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8356F12C18E3D13800122D94 /* PBXTargetDependency */,
+			);
+			name = ProximityLightTests;
+			productName = ProximityLightTests;
+			productReference = 8356F12618E3D13800122D94 /* ProximityLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8356F0FA18E3D13800122D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chris Miles";
+				TargetAttributes = {
+					8356F12518E3D13800122D94 = {
+						TestTargetID = 8356F10118E3D13800122D94;
+					};
+				};
+			};
+			buildConfigurationList = 8356F0FD18E3D13800122D94 /* Build configuration list for PBXProject "ProximityLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8356F0F918E3D13800122D94;
+			productRefGroup = 8356F10318E3D13800122D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8356F10118E3D13800122D94 /* ProximityLight */,
+				8356F12518E3D13800122D94 /* ProximityLightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8356F10018E3D13800122D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356F11C18E3D13800122D94 /* Main_iPad.storyboard in Resources */,
+				8356F12118E3D13800122D94 /* Images.xcassets in Resources */,
+				8356F11918E3D13800122D94 /* Main_iPhone.storyboard in Resources */,
+				8356F11018E3D13800122D94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8356F12418E3D13800122D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356F13218E3D13800122D94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8356F0FE18E3D13800122D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356F11618E3D13800122D94 /* PLAppDelegate.m in Sources */,
+				8356F11F18E3D13800122D94 /* PLViewController.m in Sources */,
+				8356F11218E3D13800122D94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8356F12218E3D13800122D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356F13418E3D13800122D94 /* ProximityLightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8356F12C18E3D13800122D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8356F10118E3D13800122D94 /* ProximityLight */;
+			targetProxy = 8356F12B18E3D13800122D94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8356F10E18E3D13800122D94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8356F10F18E3D13800122D94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8356F11718E3D13800122D94 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8356F11818E3D13800122D94 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8356F11A18E3D13800122D94 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8356F11B18E3D13800122D94 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8356F13018E3D13800122D94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8356F13118E3D13800122D94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8356F13518E3D13800122D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8356F13618E3D13800122D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8356F13818E3D13800122D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximityLight/ProximityLight-Prefix.pch";
+				INFOPLIST_FILE = "ProximityLight/ProximityLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8356F13918E3D13800122D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximityLight/ProximityLight-Prefix.pch";
+				INFOPLIST_FILE = "ProximityLight/ProximityLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8356F13B18E3D13800122D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProximityLight.app/ProximityLight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximityLight/ProximityLight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProximityLightTests/ProximityLightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8356F13C18E3D13800122D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProximityLight.app/ProximityLight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximityLight/ProximityLight-Prefix.pch";
+				INFOPLIST_FILE = "ProximityLightTests/ProximityLightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8356F0FD18E3D13800122D94 /* Build configuration list for PBXProject "ProximityLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8356F13518E3D13800122D94 /* Debug */,
+				8356F13618E3D13800122D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8356F13718E3D13800122D94 /* Build configuration list for PBXNativeTarget "ProximityLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8356F13818E3D13800122D94 /* Debug */,
+				8356F13918E3D13800122D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8356F13A18E3D13800122D94 /* Build configuration list for PBXNativeTarget "ProximityLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8356F13B18E3D13800122D94 /* Debug */,
+				8356F13C18E3D13800122D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8356F0FA18E3D13800122D94 /* Project object */;
+}
